@@ -20,7 +20,7 @@ public class Demo {
         driver.findElement(By.className("submit")).click();
         System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
         driver.findElement(By.linkText("Forgot your password?")).click();                     //Forgot password
-//        driver.findElement(By.id("visitUsTwo")).click();
+
         Thread.sleep(1000);
         driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("Aman");
         driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("aman@gmail.com");
