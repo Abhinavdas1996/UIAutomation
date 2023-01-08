@@ -28,7 +28,17 @@ public class Demo {
         driver.findElement(By.xpath("//input[@placeholder='Phone Number']")).clear();
         driver.findElement(By.xpath("//input[@type='text'][3]")).sendKeys("7878787878");
         driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
-        System.out.println(driver.findElement(By.cssSelector("p.infoMsg")).getText());
+        System.out.println(driver.findElement(By.cssSelector("form p")).getText());
+
+
+        driver.findElement(By.xpath("//div[@class='forgot-pwd-btn-conainer']/button[1]")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.cssSelector("button[class*=login]")).sendKeys("Abhinav Das");                  //Login with correct details
+        driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
+        driver.findElement(By.id("chkboxOne")).click();
+        driver.findElement(By.xpath("//button[contains(@class,'submit')]"));                 //Regular expression uses in xpath
+
+
 
         driver.quit();
     }
