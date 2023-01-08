@@ -30,6 +30,7 @@ public class Demo {
         driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
         System.out.println(driver.findElement(By.cssSelector("p.infoMsg")).getText());
 
+
         driver.quit();
     }
 }
