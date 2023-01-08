@@ -39,7 +39,6 @@ public class Demo {
         driver.findElement(By.xpath("//button[contains(@class,'submit')]"));                 //Regular expression uses in xpath
 
 
-
         driver.quit();
     }
 }
