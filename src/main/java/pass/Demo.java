@@ -36,7 +36,7 @@ public class Demo {
         driver.findElement(By.cssSelector("button[class*=login]")).sendKeys("Abhinav Das");                  //Login with correct details
         driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
         driver.findElement(By.id("chkboxOne")).click();
-        driver.findElement(By.xpath("//button[contains(@class,'submit')]"));                 //Regular expression uses in xpath
+        driver.findElement(By.xpath("//button[contains(@class,'submit')]"));                //Regular expression uses in xpath
 
 
         driver.quit();
