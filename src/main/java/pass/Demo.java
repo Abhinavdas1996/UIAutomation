@@ -33,12 +33,18 @@ public class Demo {
 
         driver.findElement(By.xpath("//div[@class='forgot-pwd-btn-conainer']/button[1]")).click();
         Thread.sleep(1000);
-        driver.findElement(By.cssSelector("button[class*=login]")).sendKeys("Abhinav Das");                  //Login with correct details
+        driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Abhinav Das");                  //Login with correct details
         driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
-        driver.findElement(By.id("chkboxOne")).click();
-        driver.findElement(By.xpath("//button[contains(@class,'submit')]"));                //Regular expression uses in xpath
+        driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();               //Regular expression uses in xpath
 
+        Thread.sleep(3000);
+        System.out.println(driver.findElement(By.tagName("p")).getText());
 
-        driver.quit();
+    }
+
+    public int test()
+    {
+        System.out.println("100");
+        return 50;
     }
 }
