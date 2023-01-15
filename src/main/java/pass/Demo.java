@@ -37,8 +37,9 @@ public class Demo {
         driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
         driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();               //Regular expression uses in xpath
 
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         System.out.println(driver.findElement(By.tagName("p")).getText());
+        driver.close();
 
     }
 
