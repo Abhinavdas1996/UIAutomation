@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e47e7b9-1cac-4856-b18c-d52568d295cd" name="Changes" comment="Auto validate login in web url">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pass/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/locators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -48,7 +48,7 @@ public class Demo {
 
     public int test()
     {
-        return 100;
-
+        System.out.println("100");
+        return 50;
     }
 }
