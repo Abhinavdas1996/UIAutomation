@@ -40,10 +40,9 @@ public class locators {
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("button[class*='reset']")).click();
         String pwd = driver.findElement(By.tagName("p")).getText();
-        String[] pwdarray = pwd.split("'");
-        String[] pwdarray2 = pwdarray[1].split("'");
-        String password = pwdarray2[0];
-        return password;
+        String[] PasswordArray = pwd.split("'");
+        String[] PasswordArray2 = PasswordArray[1].split("'");
+        return PasswordArray2[0];
 
         //0th index - Please use temporary password
         //1st index - rahulshettyacademy' to Login.
