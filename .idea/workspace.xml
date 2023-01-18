@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e47e7b9-1cac-4856-b18c-d52568d295cd" name="Changes" comment="Auto validate login in web url">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/StaticDropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3e47e7b9-1cac-4856-b18c-d52568d295cd" name="Changes" comment="Auto validate login in web url" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
