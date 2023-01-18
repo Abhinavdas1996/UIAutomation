@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e47e7b9-1cac-4856-b18c-d52568d295cd" name="Changes" comment="Auto validate login in web url">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/Locators1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/StaticDropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -47,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Locators1">
+  <component name="RunManager" selected="Application.StaticDropdown">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pass.Demo" />
       <module name="MavenAutomation" />
@@ -61,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Introduction" />
+    <configuration name="Locators1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.Locators1" />
       <module name="MavenAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="pass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.Locators1" />
+    <configuration name="StaticDropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.StaticDropdown" />
       <module name="MavenAutomation" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticDropdown" />
         <item itemvalue="Application.Locators1" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.locators" />
         <item itemvalue="Application.demo" />
-        <item itemvalue="Application.Introduction" />
       </list>
     </recent_temporary>
   </component>
