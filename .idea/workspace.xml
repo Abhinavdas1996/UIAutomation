@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e47e7b9-1cac-4856-b18c-d52568d295cd" name="Changes" comment="Auto validate login in web url">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/DynamicDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/AutoSuggestiveDropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DynamicDropDown">
+  <component name="RunManager" selected="Application.AutoSuggestiveDropdown">
+    <configuration name="AutoSuggestiveDropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.AutoSuggestiveDropdown" />
+      <module name="MavenAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pass.Demo" />
       <module name="MavenAutomation" />
@@ -105,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.locators" />
-      <module name="MavenAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoSuggestiveDropdown" />
         <item itemvalue="Application.DynamicDropDown" />
         <item itemvalue="Application.StaticDropdown" />
         <item itemvalue="Application.Locators1" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.locators" />
       </list>
     </recent_temporary>
   </component>
