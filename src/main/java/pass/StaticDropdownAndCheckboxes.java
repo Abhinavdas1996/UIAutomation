@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 import java.time.Duration;
 
-public class StaticDropdown {
+public class StaticDropdownAndCheckboxes {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","/Users/abhinavdas/Documents/Driver/chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -19,7 +19,8 @@ public class StaticDropdown {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         //Dropdown with Select tag  -Static
-        WebElement staticDropDown = driver.findElement(By.cssSelector("select[name='ctl00$mainContent$DropDownListCurrency']"));
+        WebElement staticDropDown = driver.findElement(By.cssSelector("select[name*='DropDownListCurrency']"));
+        Thread.sleep(1000);
         Select dropDown = new Select(staticDropDown);
         dropDown.selectByIndex(1);
         System.out.println(dropDown.getFirstSelectedOption().getText());
@@ -29,7 +30,21 @@ public class StaticDropdown {
         dropDown.selectByVisibleText("INR");
         System.out.println(dropDown.getFirstSelectedOption().getText());
 
+
         DropDown(driver);
+
+        //Count number of checkboxes
+        System.out.println("Total number of checkboxes: "+driver.findElements(By.cssSelector("input[type='checkbox']")).size());
+
+
+        // Checkboxes
+        System.out.println("Is checkbox selected? : "+driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+        Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());  //Validating if actual and expected matches
+        driver.findElement(By.xpath("//input[contains(@id,'SeniorCitizenDiscount')]")).click();
+        System.out.println("Is checkbox selected? : "+driver.findElement(By.xpath("//input[contains(@id,'SeniorCitizenDiscount')]")).isSelected());
+        Assert.assertTrue(driver.findElement(By.xpath("//input[contains(@id,'SeniorCitizenDiscount')]")).isSelected());   //Validating if actual and expected matches
+
+
         driver.close();
     }
 
@@ -39,6 +54,8 @@ public class StaticDropdown {
         Thread.sleep(2000);
         Assert.assertEquals(driver.findElement(By.id("divpaxinfo")).getText(),"1 Adult");
         System.out.println(driver.findElement(By.id("divpaxinfo")).getText());               //Print values before selection
+
+        driver.manage().deleteAllCookies();
 
 
         int i=1;

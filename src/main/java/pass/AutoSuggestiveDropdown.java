@@ -18,12 +18,15 @@ public class AutoSuggestiveDropdown {
 
         Thread.sleep(2000);
         List<WebElement> Options = driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
+
         for (WebElement Opt : Options) {
+
             if (Opt.getText().equalsIgnoreCase("Brunei Darussalam")) {
                 Opt.click();
                 break;
             }
         }
+
         Thread.sleep(1000);
 
         driver.quit();
