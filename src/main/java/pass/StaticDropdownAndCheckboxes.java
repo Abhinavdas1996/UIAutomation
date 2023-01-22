@@ -18,6 +18,26 @@ public class StaticDropdownAndCheckboxes {
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/#");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
+        driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
+        driver.findElement(By.xpath("//a[@value='BLR']")).click();
+        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
+        driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight")).click();
+
+        driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_0")).click();
+        System.out.println("Is One Way trip enabled? : "+driver.findElement(By.id("ctl00_mainContent_view_date2")).isEnabled());    //Is Radio button enabled
+
+
+        System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));       //Print style attribute value
+        driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
+        System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
+        if (driver.findElement(By.id("Div1")).getAttribute("style").contains("1")){
+            System.out.println("Round trip radio button is disabled.");
+            Assert.assertTrue(true);
+        }
+        else{
+            Assert.assertFalse(true);
+        }
+
         //Dropdown with Select tag  -Static
         WebElement staticDropDown = driver.findElement(By.cssSelector("select[name*='DropDownListCurrency']"));
         Thread.sleep(1000);
@@ -39,10 +59,10 @@ public class StaticDropdownAndCheckboxes {
 
         // Checkboxes
         System.out.println("Is checkbox selected? : "+driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
-        Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());  //Validating if actual and expected matches
+        Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());                            //Validating if actual and expected matches
         driver.findElement(By.xpath("//input[contains(@id,'SeniorCitizenDiscount')]")).click();
         System.out.println("Is checkbox selected? : "+driver.findElement(By.xpath("//input[contains(@id,'SeniorCitizenDiscount')]")).isSelected());
-        Assert.assertTrue(driver.findElement(By.xpath("//input[contains(@id,'SeniorCitizenDiscount')]")).isSelected());   //Validating if actual and expected matches
+        Assert.assertTrue(driver.findElement(By.xpath("//input[contains(@id,'SeniorCitizenDiscount')]")).isSelected());         //Validating if actual and expected matches
 
 
         driver.close();
@@ -50,8 +70,8 @@ public class StaticDropdownAndCheckboxes {
 
     public static void DropDown(WebDriver driver) throws InterruptedException {
 
+        Thread.sleep(1000);
         driver.findElement(By.id("divpaxinfo")).click();
-        Thread.sleep(2000);
         Assert.assertEquals(driver.findElement(By.id("divpaxinfo")).getText(),"1 Adult");
         System.out.println(driver.findElement(By.id("divpaxinfo")).getText());               //Print values before selection
 
