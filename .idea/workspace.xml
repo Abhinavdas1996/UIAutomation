@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e47e7b9-1cac-4856-b18c-d52568d295cd" name="Changes" comment="Auto validate login in web url">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/StaticDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/Assignment_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/abhinavdas/IdeaProjects/MavenAutomation&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -52,9 +54,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StaticDropdown">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.Demo" />
+  <component name="RunManager" selected="Application.Assignment_3">
+    <configuration name="Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.Alerts" />
       <module name="MavenAutomation" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.Locators1" />
+    <configuration name="Assignment_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.Assignment_3" />
       <module name="MavenAutomation" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticDropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.StaticDropdown" />
+    <configuration name="GreenKart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.GreenKart" />
       <module name="MavenAutomation" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo" />
+    <configuration name="MakeMyTrip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.MakeMyTrip" />
       <module name="MavenAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="pass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.locators" />
+    <configuration name="SpiceJet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.SpiceJet" />
       <module name="MavenAutomation" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticDropdown" />
-        <item itemvalue="Application.Locators1" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.locators" />
-        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.Assignment_3" />
+        <item itemvalue="Application.GreenKart" />
+        <item itemvalue="Application.SpiceJet" />
+        <item itemvalue="Application.Alerts" />
+        <item itemvalue="Application.MakeMyTrip" />
       </list>
     </recent_temporary>
   </component>
@@ -161,5 +163,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Auto validate login in web url" />
     <option name="LAST_COMMIT_MESSAGE" value="Auto validate login in web url" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pass/SpiceJet.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
