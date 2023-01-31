@@ -12,7 +12,7 @@ import java.util.List;
 public class SpiceJet {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/abhinavdas/Documents/Driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\abhin\\Documents\\Personal doc\\Driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.spicejet.com/");
         driver.manage().window().maximize();
