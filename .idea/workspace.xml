@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56fa4937-cd22-4b17-962f-a4aa4ade9cc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/MouseInteraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/WindowHandles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/Assignment_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/frames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/Assignment_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Assignment_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/AutoSuggestiveDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/AutoSuggestiveDropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/DynamicDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/DynamicDropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/Locators1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Locators1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/MakeMyTrip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/MakeMyTrip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/SpiceJet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/SpiceJet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/StaticDropdownAndCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/StaticDropdownAndCheckboxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/locators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WindowHandles">
+  <component name="RunManager" selected="Application.frames">
     <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment1" />
       <module name="UIAutomation" />
@@ -75,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoSuggestiveDropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.AutoSuggestiveDropdown" />
+    <configuration name="Assignment_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.Assignment_4" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.locators" />
+    <configuration name="frames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.frames" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.frames" />
+        <item itemvalue="Application.Assignment_4" />
         <item itemvalue="Application.WindowHandles" />
         <item itemvalue="Application.MouseInteraction" />
         <item itemvalue="Application.Assignment1" />
-        <item itemvalue="Application.locators" />
-        <item itemvalue="Application.AutoSuggestiveDropdown" />
       </list>
     </recent_temporary>
   </component>
