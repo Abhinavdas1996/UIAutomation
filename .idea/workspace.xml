@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56fa4937-cd22-4b17-962f-a4aa4ade9cc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/ActionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/Assignment_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/JavascriptExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/LinksCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/MultiWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/frames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/frames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/Assignment_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Assignment_5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +54,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JavascriptExecutorDemo">
+  <component name="RunManager" selected="Application.MultiWindow">
     <configuration name="ActionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pass.ActionsDemo" />
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.Assignment_5" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -97,21 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowHandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.WindowHandles" />
-      <module name="UIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="frames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pass.frames" />
+    <configuration name="MultiWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.MultiWindow" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiWindow" />
+        <item itemvalue="Application.Assignment_5" />
         <item itemvalue="Application.JavascriptExecutorDemo" />
         <item itemvalue="Application.LinksCount" />
         <item itemvalue="Application.ActionsDemo" />
-        <item itemvalue="Application.frames" />
-        <item itemvalue="Application.WindowHandles" />
       </list>
     </recent_temporary>
   </component>
