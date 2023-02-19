@@ -3,7 +3,6 @@ package eg;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(eg.Listeners.class)
 public class TestNGDemo1 {
 
 
