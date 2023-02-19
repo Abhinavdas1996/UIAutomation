@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="eg.TestNGDemo1"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/abhin/Documents/Git_Projects/UIAutomation">
+        <classes>
+            <class name="eg.CarLoan"/>
+            <class name="eg.Day1"/>
+            <class name="eg.TestNGDemo1"/>
+        </classes>
+    </test>
+</suite>

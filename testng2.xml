@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/abhin/Documents/Git_Projects/UIAutomation">
+
+        <parameter name="URL" value="Google.com"></parameter>
+        <parameter name="API" value="Order details"></parameter>
+
+        <classes>
+            <class name="eg.CarLoan"/>
+            <class name="eg.Day1"/>
+        </classes>
+    </test>
+
+    <test name="Practice">
+
+        <classes>
+            <class name="eg.TestNGDemo1"/>
+        </classes>
+    </test>
+</suite>
