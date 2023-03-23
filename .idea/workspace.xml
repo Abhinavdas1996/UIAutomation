@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56fa4937-cd22-4b17-962f-a4aa4ade9cc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/DataDrivenUsingHashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pass/windows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eg/CarLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/CarLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eg/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/Day1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eg/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eg/TestNGDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/TestNGDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/DynamicDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/DynamicDropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/MouseInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/MouseInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/MultiWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/MultiWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/StaticDropdownAndCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/StaticDropdownAndCheckboxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/WindowHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/WindowHandles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pass/frames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/frames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
