@@ -1,5 +1,6 @@
 package eg;
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -8,7 +9,7 @@ public class TestNGDemo1 {
 
     @Test
     public void Demo(){
-        System.out.println("Hello World! Work smartly");
+        System.out.println("Hello World! Work smartly | " + Thread.currentThread().getName());
 
 
         int sum= 0;
@@ -17,5 +18,7 @@ public class TestNGDemo1 {
             sum = sum + j;
         }
         System.out.println(sum);
+
+//        Assert.assertEquals("a","b");
     }
 }

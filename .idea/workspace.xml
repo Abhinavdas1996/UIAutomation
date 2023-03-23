@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fa4937-cd22-4b17-962f-a4aa4ade9cc1" name="Changes" comment="" />
+    <list default="true" id="56fa4937-cd22-4b17-962f-a4aa4ade9cc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/DataDrivenUsingHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pass/windows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eg/CarLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/CarLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eg/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/Day1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eg/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eg/TestNGDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eg/TestNGDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/DynamicDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/DynamicDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/GreenKart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/MouseInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/MouseInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/MultiWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/MultiWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/StaticDropdownAndCheckboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/StaticDropdownAndCheckboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/WindowHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/WindowHandles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pass/frames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pass/frames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,85 +72,86 @@
       <recent name="C:\Users\abhin\Documents\Git_Projects\UIAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/abhin/Documents/Git_Projects/UIAutomation/testng.xml">
-    <configuration name="C:/Users/abhin/Documents/Git_Projects/UIAutomation/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/abhin/Documents/Git_Projects/UIAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarLoan" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DataDrivenUsingHashmap">
+    <configuration name="DataDrivenUsingHashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.DataDrivenUsingHashmap" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eg.*" />
+          <option name="PATTERN" value="pass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eg" />
-      <option name="MAIN_CLASS_NAME" value="eg.CarLoan" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicDropDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.DynamicDropDown" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eg.*" />
+          <option name="PATTERN" value="pass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eg" />
-      <option name="MAIN_CLASS_NAME" value="eg.Day1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.MultiWindow" />
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eg.*" />
+          <option name="PATTERN" value="pass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eg" />
-      <option name="MAIN_CLASS_NAME" value="eg.TestNGDemo1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StaticDropdownAndCheckboxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.StaticDropdownAndCheckboxes" />
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="frames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pass.frames" />
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DataDrivenUsingHashmap" />
+      <item itemvalue="Application.MultiWindow" />
+      <item itemvalue="Application.DynamicDropDown" />
+      <item itemvalue="Application.StaticDropdownAndCheckboxes" />
+      <item itemvalue="Application.frames" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/abhin/Documents/Git_Projects/UIAutomation/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/abhin/Documents/Git_Projects/UIAutomation/testng2.xml" />
-        <item itemvalue="TestNG.TestNGDemo1" />
-        <item itemvalue="TestNG.CarLoan" />
-        <item itemvalue="TestNG.Day1" />
+        <item itemvalue="Application.DataDrivenUsingHashmap" />
+        <item itemvalue="Application.MultiWindow" />
+        <item itemvalue="Application.DynamicDropDown" />
+        <item itemvalue="Application.StaticDropdownAndCheckboxes" />
+        <item itemvalue="Application.frames" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +196,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/pass/SpiceJet.java</url>
           <line>67</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pass/frames.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pass/frames.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,19 +6,20 @@ import org.testng.annotations.*;
 public class CarLoan {
 
 
-    @Test(dataProvider = "Login")
-    public void everytime(String uname, String password) {
-        System.out.println("I will execute after.");
-        System.out.println(uname);
-        System.out.println(password);
+
+    @Test(dataProvider="Login")
+    public void everytime(String firtName, String pwd) {
+        System.out.println("I will execute after. |" + Thread.currentThread().getName());
+        System.out.println(firtName);
+        System.out.println(pwd);
     }
 
 
-    @Parameters({"URL"})
     @Test
-    public void Car(String uname) {
-        System.out.println(uname);
-        System.out.println("This is Car loan.");
+    public void Zar() {
+
+        System.out.println("This is Car loan. |" + Thread.currentThread().getName());
+
     }
 
 

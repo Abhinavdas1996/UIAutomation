@@ -3,6 +3,7 @@ package pass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,8 +13,8 @@ import java.util.Set;
 
 public class WindowHandles {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\abhin\\Documents\\Personal doc\\Driver\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.edge.driver", "C:\\Users\\abhin\\Documents\\Personal doc\\Driver\\msedgedriver.exe");
+        WebDriver driver = new EdgeDriver();
         driver.get("https://rahulshettyacademy.com/loginpagePractise/#/");
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();

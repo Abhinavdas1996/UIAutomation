@@ -1,17 +1,25 @@
 package pass;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.interactions.Actions;
 
-import java.util.Iterator;
-import java.util.Set;
+import java.time.Duration;
+import java.util.*;
 
 public class MultiWindow {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\abhin\\Documents\\Personal doc\\Driver\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.edge.driver", "C:\\Users\\abhin\\Documents\\Personal doc\\Driver\\msedgedriver.exe");
+        WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
+
+//        windows(driver);
+        HRMPortal(driver);
+//        driver.quit();
+    }
+
+    public static void windows(WebDriver driver) throws InterruptedException {
 
         driver.get("https://rahulshettyacademy.com/angularpractice/");
         driver.switchTo().newWindow(WindowType.WINDOW);
@@ -36,7 +44,36 @@ public class MultiWindow {
         driver.switchTo().window(parent);
         driver.findElement(By.name("name")).sendKeys(name);
 
+    }
 
-        driver.quit();
+    public static void HRMPortal(WebDriver driver) throws InterruptedException {
+
+        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+//        Thread.sleep(400);
+//        driver.findElement(By.xpath("//a[contains(@href,'/company/orangehrm/mycompany/')]")).click();
+
+        Thread.sleep(400);
+        Actions ac = new Actions(driver);
+
+
+        ac.moveToElement(driver.findElement(By.xpath("//a[contains(@href,'/orangehrm/mycompany/')]"))).click().build().perform();
+        ac.moveToElement(driver.findElement(By.xpath("//a[@href='https://www.facebook.com/OrangeHRM/']"))).click().build().perform();
+        ac.moveToElement(driver.findElement(By.xpath("//a[contains(@href,'/orangehrm?lang=en')]"))).click().build().perform();
+        ac.moveToElement(driver.findElement(By.cssSelector("a[href='https://www.youtube.com/c/OrangeHRMInc']"))).click().build().perform();
+
+
+        Set<String> wins = driver.getWindowHandles();
+
+        List<String> winList = new ArrayList<>(wins);
+
+        for (String w:winList){
+           String Title=driver.switchTo().window(w).getTitle();
+           if (Title.contains("Facebook")){
+               driver.switchTo().window(Title);
+           }
+
+        }
     }
 }
