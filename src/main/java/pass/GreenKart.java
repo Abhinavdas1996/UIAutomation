@@ -74,6 +74,7 @@ public class GreenKart {
 
             if (itemsList.contains(formattedText)) {
                 j++;
+                //Click on "Add to cart"
                 driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
 
                 if (j == vegetables.length)

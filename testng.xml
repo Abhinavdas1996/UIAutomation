@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+
+
+    <parameter name="Tutorial" value="GeeksforGeeks"></parameter>
+
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="Smoke"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+
+
+
+
+
+
+
+
+    <listeners>
+        <listener class-name="eg.Listeners"/>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="C:/Users/abhin/Documents/Git_Projects/UIAutomation">
+
+        <parameter name="url" value="www.Instagram.com"></parameter>
+        <classes>
+            <class name="eg.TestNGDemo1"/>
+            <class name="eg.Day1"/>
+        </classes>
+    </test>
+
+
+    <test name="Car Loan test">
+        <classes>
+            <class name="eg.CarLoan"/>
+        </classes>
+    </test>
+</suite>
